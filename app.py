@@ -3,6 +3,9 @@ import joblib
 import pandas as pd
 import re
 import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from nltk.stem import WordNetLemmatizer
 
 # Download required NLTK resources
 nltk.download("punkt")
