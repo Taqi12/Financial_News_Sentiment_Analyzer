@@ -9,7 +9,7 @@ This project builds a machine learning model to classify text sentiment into **N
 3. The app will display whether the sentiment is **Negative, Neutral, or Positive**.  
 
 ## Dataset  
-
+* [Link](https://www.researchgate.net/publication/251231364_FinancialPhraseBank-v10)
 * The model is trained on a labeled text dataset.  
 * The dataset should contain two columns: **"text"** (input) and **"sentiment"** (labels).  
 
