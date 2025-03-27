@@ -3,14 +3,13 @@ import joblib
 import pandas as pd
 import re
 import nltk
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-from nltk.stem import WordNetLemmatizer
 
-# Ensure necessary NLTK resources are downloaded
-nltk.download("stopwords")
+# Download required NLTK resources
 nltk.download("punkt")
+nltk.download("stopwords")
 nltk.download("wordnet")
+nltk.download("punkt_tab")  # Download the punkt_tab resource
+
 
 # Load the model, vectorizer, and label encoder
 model = joblib.load("financial_sentiment_model.pkl")
